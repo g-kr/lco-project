@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".choice">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:weightSum="2"
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_gravity="center"
+
+                        android:id="@+id/doctor1"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/doc" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Doctor"
+                        android:textColor="#665FEE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/computer"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/computer" />
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Comp Eng"
+                        android:textColor="#665FEE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/teacher"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/teacher" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Teacher"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/mechanic"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/mechanic" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Mechanic"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:weightSum="2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/photographer"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/photo"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                       android:layout_gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Photographer"
+                        android:textColor="#665FEE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/carpenter"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/carpenter" />
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Carpenter"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/construct"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/construct" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Buileder"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/driver"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/driver" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Driver"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:padding="10dp"
+                android:weightSum="2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/electric"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/electric" />
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Doctor"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/plumber"
+                        android:layout_width="107dp"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/tap" />
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="I'm a Carpenter"
+                        android:textColor="#665FEE"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/other"
+                    android:layout_marginLeft="70dp"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="other one"
+                    android:textColor="#665FEE"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
